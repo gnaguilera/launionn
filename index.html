@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link a fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>LA UNION - Materiales para la construcción</title>
+
+    <!-- link a bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+
+  </head>
+  <body>
+
+    <!-- encabezado fijo-->
+    <div class="">
+    <header>
+      <nav class="navbar" style="background-color: #f21f26; width:100%;">
+      <!-- <nav class="encabezado"> -->
+        <div class="">
+          <a> <img src="img/logos/launion_logo21.jpeg" alt="Logo" width="150px" height="50px" style="margin: .25rem .125rem"> </a>
+          <a href="#empresa"><button type="button" class="btn btn-danger" style="margin: .25rem .125rem">LA EMPRESA</button></a>
+          <a href="#servicios"><button type="button" class="btn btn-danger" style="margin: .25rem .125rem">SERVICIOS</button></a>
+          <a href="productos.html"><button type="button" class="btn btn-danger" style="margin: .25rem .125rem">PRODUCTOS</button></a>
+          <a href="utilidades.html"><button type="button" class="btn btn-danger" style="margin: .25rem .125rem">UTILIDADES</button></a>
+          <a href="#contacto"><button type="button" class="btn btn-danger" style="margin: .25rem .125rem">CONTACTO</button></a>
+        </div>
+      </nav>
+    </header>
+    </div>
+
+    <!-- carrusel bootstrap de imagenes de la empresa-->
+    <div class="empresa" id="empresa">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/empresa/bolsones_arena.jpg" class="d-block w-100" alt="bolsones">
+          </div>
+          <div class="carousel-item">
+            <img src="img/empresa/camion_ladrillos.jpg" class="d-block w-100" alt="camion_ladrillos">
+          </div>
+          <div class="carousel-item">
+            <img src="img/empresa/ladrillos.jpg" class="d-block w-100" alt="ladrillos">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <br>
+    <!-- servicios -->
+    <div class="servicios" id="servicios">
+      <div class="container">
+        <div class="row">
+          <div class="col order-last">
+            <div class="card" style="width: 18rem;">
+              <img src="img/servicios/presupuesto.jpg" class="card-img-top" alt="...">
+              <div class="card-body"  style="background-color: #f21f26;">
+                <p class="card-text"><b>Obtene tu presupuesto sin cargo</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="img/servicios/envio.jpg" class="card-img-top" alt="...">
+              <div class="card-body"  style="background-color: #f21f26;">
+                <p class="card-text"><b>Realizamos envíos a domicilio</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col order-first">
+            <div class="card" style="width: 18rem;">
+              <img src="img/servicios/acopio.jpg" class="card-img-top" alt="...">
+              <div class="card-body"  style="background-color: #f21f26;">
+                <p class="card-text"><b>No tenes lugar para guardar los materiales? compralos y retiralos cuando los necesites </b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col order-last">
+              <div class="card" style="width: 18rem;">
+                <img src="img/servicios/hipotecarios.jpg" class="card-img-top" alt="...">
+                <div class="card-body"  style="background-color: #f21f26;">
+                  <p class="card-text"><b>Descuentos por pago en efectivo</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/servicios/efectivo.jpg" class="card-img-top" alt="...">
+                <div class="card-body"  style="background-color: #f21f26;">
+                  <p class="card-text"><b>Descuentos a clientes procrear</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col order-first">
+              <div class="card" style="width: 18rem;">
+                <img src="img/servicios/mejoras.jpg" class="card-img-top" alt="...">
+                <div class="card-body"  style="background-color: #f21f26;">
+                  <p class="card-text"><b>Mejoramos cualquier presupuesto</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <br>
+    <!-- datos de contacto, redes y ubicacion en maps -->
+    <div class"contacto" id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col order-last">
+            <div class="card" style="width: 18rem;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.3801708957903!2d-60.25178938528013!3d-33.30887519764523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b76793f9d6a765%3A0x20ce07ea3a20a1b4!2zTGEgVW5pw7Nu!5e0!3m2!1ses!2sar!4v1653516084187!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col">
+            <b>Seguinos!</b>
+            <br><a href="https://www.instagram.com/launionmateriales/" target="_blank"><img src="img/logos/instagram_logo_negro.png" alt="IG" width="50px" height="50px" style="margin: .25rem .125rem"></a>
+            <a href="https://www.facebook.com/launion.corralondemateriales" target="_blank"><img src="img/logos/facebook_logo_negro.png" alt="FB" width="50px" height="50px" style="margin: .25rem .125rem"></a>
+          </div>
+          <div class="col order-first">
+            <b>San Nicolás de los Arroyos</b>
+            <br>Otero 1182
+            <br>Tel: 336454582
+            <br><a href="https://wa.me/3364354817" target="_blank"><img src="img/logos/whatsapp_logo_negro.png" alt="WA" width="20px" height="20px" style="margin: .25rem .125rem">3364354817</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- logo flotante de whatsapp con link a la app -->
+    <a href="https://wa.me/3364354817" target="_blank">
+      <img src="img/logos/whatsapp_logo.png" alt="whatsapp" width="50px" height="50px" class="escribinos">
+    </a>
+
+    <br>
+    <!-- footer con info de desarrollo -->
+    <footer>
+      <p>Desarrollo realizado por Gerar.A - Aprende a programar, comisión A. 25/05/2022</p>
+    </footer>
+
+    <!-- script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
